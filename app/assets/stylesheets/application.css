@@ -1,0 +1,360 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+body{
+    font-size:16px;
+    margin:0;
+    padding:0;
+}
+
+#header{
+    background-color:#333;
+    height:130px;
+    border-top:6px solid darkslategrey;
+    border-bottom:6px solid darkslategrey;
+}
+
+#right{
+    float:right;
+    width:14.8%;
+    border-left: 4px solid darkslategray;
+    border-bottom: 4px solid darkslategray;
+    border-right: 4px solid darkslategray;
+    padding-left:1%;
+    padding-right:2%;
+    height:100%;
+}
+
+
+li {
+    position:relative;
+    list-style-type: none;
+    display:inline;
+    margin-left:2%;
+}
+
+a:link{
+    position:relative;
+    text-decoration: none;
+    font-family:tahoma;
+    color:darkslategray;
+}
+
+a:visited{
+    color:darkslategray;
+}
+
+a:hover{
+    color:#808080;
+}
+
+
+#center {
+    margin-right:25%;
+    background-color:white;
+    min-height:660px;
+
+}
+
+
+#pic{
+    padding-top:2%;
+    padding-left:5%;
+}
+#arrow{
+    position:absolute;
+    margin-top:10%;
+    margin-left:30%;
+}
+
+#paul{
+    position:absolute;
+    color:white;
+    font-family: tahoma;
+    margin-left:10%;
+    margin-right:60%;
+    margin-top:1%;
+    font-size:1.5em;
+}
+
+#paulpic{
+    position:absolute;
+    margin-left:43%;
+    margin-top:2%;
+    border-radius:5px;
+}
+#blog{
+    width:35%;
+    padding-top:8%;
+    padding-left:5%;
+    padding-bottom:5%;
+}
+
+h3{
+    font-family:arial;
+    color:cadetblue;
+    font-size:3em;
+}
+
+h4{
+    color:black;
+    font-family:arial;
+    font-weight:bold;
+    font-size:1.3em;
+    border-left: 3px solid cadetblue;
+    padding-left:10px;
+}
+
+p{
+    font-family: tahoma;
+    color:black;
+}
+
+#redlogo{
+    position:absolute;
+    margin-top:5%;
+    margin-left:39%;
+}
+
+#usherlogo{
+    position:absolute;
+    margin-top:8%;
+    margin-left:38%;
+}
+
+#creaturelogo{
+    position:absolute;
+    margin-top:1%;
+    margin-left:42%;
+}
+
+#posts-form{
+    position: absolute;
+    margin-top:8%;
+    left:5%
+}
+
+#all-posts{
+    margin-top:0%;
+    margin-bottom:10%;
+    width:95%;
+    height:1150px;
+    padding-top:2%;
+    padding-left:2%;
+    overflow: auto;
+
+}
+
+#contact{
+    position: absolute;
+    font-family:arial;
+    width:25%;
+    font-size:2em;
+    margin-top:15%;
+    margin-left:10%;
+    color:black;
+}
+
+#contact > span{
+    position: relative;
+    font-family:arial;
+    width:25%;
+    font-size:1.3em;
+    margin-top:15%;
+    color:cadetblue;
+    font-weight:bold;
+}
+
+#newspaper{
+    height:120px;
+    width:160px;
+}
+
+#post-title{
+    font-family:arial;
+    color:cadetblue;
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+#post-body{
+    font-family:tahoma;
+    font-size:0.9em;
+}
+
+#post-foot{
+    font-family:tahoma;
+    color:gray;
+    font-size:0.7em;
+}
+
+#linkedin{
+    position:absolute;
+    margin-top:6%;
+    margin-left:95%;
+    border-radius: 10px;
+}
+
+#git{
+    position:absolute;
+    margin-top:6%;
+    margin-left:92%;
+    border-radius: 10px;
+}
+
+
+.text-question{
+    position:relative;
+    width:85%;
+    height:5%;
+    margin-top:90%;
+    margin-left:35%;
+    border-radius:2em;
+    padding-left:10%;
+    padding-top:5%;
+    border:0.5em solid cadetblue;
+}
+
+#question-container {
+    position: absolute;
+    width:25%;
+    top: 26%;
+    bottom:15%;
+    left: 40%;
+    font-family:helvetica;
+    font-size: 15px;
+    padding-top:35px;
+
+}
+
+@-webkit-keyframes greenPulse {
+    from { background-color: cadetblue; -webkit-box-shadow: 0 0 9px #333; }
+    50% { background-color: lightblue; -webkit-box-shadow: 0 0 18px #333; }
+    to { background-color: cornflowerblue; -webkit-box-shadow: 0 0 9px #333; }
+}
+.green.button {
+    -webkit-animation-name: greenPulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-border-radius: 8px;
+    background-color: cadetblue;
+    font-size: 20px ;
+    font-family: arial;
+    margin-left:40%;
+    color:white;
+    width:300px;
+    text-decoration: none;
+    padding:10px 15px 10px 15px;
+
+}
+
+#heading{
+    color:white;
+}
+
+.list_line_even {
+    background: #d3d3d3;
+
+}
+.list_line_odd {
+    background: ghostwhite;
+
+}
+
+table {
+    right:50px;
+    border-collapse: collapse;
+
+}
+table tr td  {
+    padding: 10px 20px 10px 25px;
+    vertical-align: top;
+
+}
+
+#show-question{
+    position:absolute;
+    font-size:1em;
+    color:dimgray;
+    height:60%;
+    width:20%;
+    margin-top:5%;
+    margin-left:15%;
+    border:0.2em solid cadetblue;
+    padding:2%;
+
+}
+
+#blog-form{
+    margin-top:10%;
+    margin-left:10%;
+}
+
+#all-blogs{
+    margin-top:10%;
+    margin-left:10%;
+    margin-right:30%;
+}
+
+#all-alerts{
+    position:absolute;
+    margin-top:5%;
+    margin-left:55%;
+}
+
+#footer{
+    color:#d3d3d3;
+    text-align:center;
+    font-size:0.8em;
+    clear:both;
+    background-color:#333;
+    height:100px;
+}
+
+#footer > p {
+    color:#d3d3d3;
+
+}
+
+
+.notice {
+    color: green;
+}
+
+.alert{
+    color: red;
+}
+
+.field_with_errors {
+    border: 1px solid red;
+    display: table;
+}
+
+#error {
+    color:red;
+    margin-left:38%;
+
+}
+
+#blog-content{
+    font-family:tahoma;
+    font-size:1.2em;
+}
+
+#signin{
+    color:#d3d3d3;
+}
+
+
